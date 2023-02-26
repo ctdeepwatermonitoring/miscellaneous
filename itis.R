@@ -10,6 +10,7 @@ hier <- str_split(data$response$docs$hierarchySoFarWRanks[[1]],"[$]")
 # Get length of list
 length(hier[[1]])
 
+# Parse out ranks to build master taxa list
 str_split(hier[[1]][1],":")[[1]][1]
 str_split(hier[[1]][1],":")[[1]][2]
 
